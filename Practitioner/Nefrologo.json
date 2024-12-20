@@ -1,0 +1,68 @@
+{
+    "resourceType": "Practitioner",
+    "id": "ID712202412",
+    "identifier": [
+        {
+            "system": "http://www.acme-salud.com/professional-id",
+            "value": "12202412"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "family": "Perez",
+            "given": [
+                "Maria Camila"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+57 665786983",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "camila.perez@acme-salud.com",
+            "use": "work"
+        }
+    ],
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Clínica Centro, Calle 13 # 45-5"
+            ],
+            "city": "Colombia",
+            "state": "Bogotá",
+            "postalCode": "110001",
+            "country": "Bogota"
+        }
+    ],
+    "gender": "female",
+    "qualification": [
+        {
+            "identifier": [
+                {
+                    "system": "http://www.acme-salud.com/qualifications",
+                    "value": "NEF-712202412"
+                }
+            ],
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                        "code": "NEPH",
+                        "display": "Nephrology"
+                    }
+                ],
+                "text": "Especialista en Nefrología"
+            },
+            "issuer": {
+                "display": "Universidad Nacional de Colombia"
+            }
+        }
+    ]
+}

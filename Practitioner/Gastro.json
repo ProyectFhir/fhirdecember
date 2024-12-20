@@ -1,0 +1,68 @@
+{
+    "resourceType": "Practitioner",
+    "id": "ID30337331",
+    "identifier": [
+        {
+            "system": "http://www.acme-salud.com/professional-id",
+            "value": "444777333"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+                "Álvaro"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+57(601)5456094",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "alvaro.silva@saludfamiliar.com.co",
+            "use": "work"
+        }
+    ],
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Sede Centro, Calle 13 Centro # 45-5"
+            ],
+            "city": "Bogotá",
+            "state": "Estado",
+            "postalCode": "110001",
+            "country": "Colombia"
+        }
+    ],
+    "gender": "male",
+    "qualification": [
+        {
+            "identifier": [
+                {
+                    "system": "http://www.acme-salud.com/qualifications",
+                    "value": "GAS-444777333"
+                }
+            ],
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                        "code": "GAST",
+                        "display": "Gastroenterology"
+                    }
+                ],
+                "text": "Esp-Gastroenterología"
+            },
+            "issuer": {
+                "display": "Universidad Rosario"
+            }
+        }
+    ]
+}

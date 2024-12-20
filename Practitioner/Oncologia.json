@@ -1,0 +1,67 @@
+{
+    "resourceType": "Practitioner",
+    "id": "ID907654234",
+    "identifier": [
+        {
+            "system": "http://www.acme-salud.com/professional-id",
+            "value": "907654234"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "family": "Hernandez",
+            "given": [
+                "Juan Pablo"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+1237578684",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "juan.hernandez@acme-salud.com",
+            "use": "work"
+        }
+    ],
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Clínica Sur, Calle 19 sur # 6-45"
+            ],
+            "city": "Bogota",
+            "postalCode": "000000",
+            "country": "Colombia"
+        }
+    ],
+    "gender": "male",
+    "qualification": [
+        {
+            "identifier": [
+                {
+                    "system": "http://www.acme-salud.com/qualifications",
+                    "value": "ONC-907654234"
+                }
+            ],
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                        "code": "ONCL",
+                        "display": "Oncology"
+                    }
+                ],
+                "text": "Especialista en Oncología"
+            },
+            "issuer": {
+                "display": "Pontificia Universidad Javeriana"
+            }
+        }
+    ]
+}

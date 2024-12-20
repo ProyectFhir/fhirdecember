@@ -1,0 +1,66 @@
+{
+    "resourceType": "Practitioner",
+    "id": "ID87716772",
+    "identifier": [
+        {
+            "system": "http://www.acme-salud.com/professional-id",
+            "value": "111222333"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "family": "Casas",
+            "given": [
+                "Gregorio"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+57(601)5456092",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "gregorio.casas@saludfamiliar.com.co",
+            "use": "work"
+        }
+    ],
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Sede Norte, Carrera 7 # 136-45"
+            ],
+            "city": "Bogotá",
+            "postalCode": "110001",
+            "country": "Colombia"
+        }
+    ],
+    "gender": "male",
+    "qualification": [
+        {
+            "identifier": [
+                {
+                    "system": "http://www.acme-salud.com/qualifications",
+                    "value": "PED-111222333"
+                }
+            ],
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                        "code": "PED",
+                        "display": "Pediatria"
+                    }
+                ],
+                "text": "Esp-Pediatría"
+            },
+            "issuer": {
+                "display": "Universidad Rosario"
+            }
+        }
+    ]

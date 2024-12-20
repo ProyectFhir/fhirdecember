@@ -1,0 +1,68 @@
+{
+    "resourceType": "Practitioner",
+    "id": "ID30337334",
+    "identifier": [
+        {
+            "system": "http://example.org/fhir/practitioner-identifier",
+            "value": "000111222"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "family": "Moncada",
+            "given": [
+                "Sandra"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+57(601)5456096",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "sandra.moncada@saludfamiliar.com.co",
+            "use": "work"
+        }
+    ],
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Calle 86 #12-25"
+            ],
+            "city": "Bogotá",
+            "state": "Cundinamarca",
+            "postalCode": "110111",
+            "country": "Colombia"
+        }
+    ],
+    "gender": "female",
+    "birthDate": "1998-05-14",
+    "qualification": [
+        {
+            "identifier": [
+                {
+                    "system": "http://example.org/fhir/qualification-identifier",
+                    "value": "MG12345"
+                }
+            ],
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                        "code": "MD",
+                        "display": "Doctor of Medicine"
+                    }
+                ],
+                "text": "Médico General"
+            },
+            "issuer": {
+                "display": "Universidad del Rosario"
+            }
+        }
+    ]
+}
