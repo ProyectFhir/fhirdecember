@@ -1,0 +1,14 @@
+{
+  "resourceType": "AppointmentResponse",
+  "id": "AR87716772",
+  "appointment": {
+    "reference": "Appointment/APT87716772",
+    "display": "Cita Pediatrics con el Dr. Gregorio Casas"
+  },
+  "actor": {
+    "reference": "Patient/CC80019670",
+    "display": "Daniel López"
+  },
+  "participantStatus": "accepted",
+  "comment": "Su Cita fue asignada con el Profesional Gregorio Casas."
+}
