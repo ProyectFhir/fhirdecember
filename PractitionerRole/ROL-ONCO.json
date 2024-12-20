@@ -1,0 +1,74 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "PR5-ID907654234",
+    "practitioner": {
+        "reference": "Practitioner/ID907654234",
+        "display": "Dr. Juan Pablo Hernandez"
+    },
+    "organization": {
+        "reference": "Organization/830462510-9",
+        "display": "ACME Salud - Sede Sur"
+    },
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/practitioner-role",
+                    "code": "oncology",
+                    "display": "Oncology"
+                }
+            ],
+            "text": "Especialista en Oncología"
+        }
+    ],
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                    "code": "ONC",
+                    "display": "Oncology"
+                }
+            ],
+            "text": "Oncología"
+        }
+    ],
+    "healthcareService": [
+        {
+            "reference": "HealthcareService/202411HSER08",
+            "display": "Servicio de Oncología - Sede Sur"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+1237578684",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "juan.hernandez@acme-salud.com",
+            "use": "work"
+        }
+    ],
+    "active": true,
+    "availableTime": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "tue",
+                "fri"
+            ],
+            "availableStartTime": "08:00:00",
+            "availableEndTime": "12:00:00"
+        },
+        {
+            "daysOfWeek": [
+                "wed",
+                "thu"
+            ],
+            "availableStartTime": "14:00:00",
+            "availableEndTime": "18:00:00"
+        }
+    ]
+}

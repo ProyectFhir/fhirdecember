@@ -1,0 +1,61 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "PR7-ID30337334",
+    "practitioner": {
+        "reference": "Practitioner/ID30337334",
+        "display": "Sandra Moncada"
+    },
+    "organization": {
+        "reference": "Organization/1100155555-1",
+        "display": "ACME Salud - Sede Norte"
+    },
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/practitioner-role",
+                    "code": "doctor",
+                    "display": "Doctor"
+                }
+            ],
+            "text": "Médico General"
+        }
+    ],
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "408443003",
+                    "display": "General medical practice"
+                }
+            ],
+            "text": "Práctica médica general"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+57(601)2480798",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "sandra.moncada@saludfamiliar.com.co",
+            "use": "work"
+        }
+    ],
+    "availableTime": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+            ],
+            "availableStartTime": "08:00:00",
+            "availableEndTime": "16:00:00"
+        }
+    ]
+}

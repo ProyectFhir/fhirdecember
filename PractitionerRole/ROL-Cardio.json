@@ -1,0 +1,74 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "PR-ID123456",
+    "practitioner": {
+        "reference": "Practitioner/ID123456",
+        "display": "Dr. Alonso Fonseca"
+    },
+    "organization": {
+        "reference": "Organization/830462510-9",
+        "display": "ACME Salud Familiar"
+    },
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/practitioner-role",
+                    "code": "cardiology",
+                    "display": "Cardiology"
+                }
+            ],
+            "text": "Especialista en Cardiología"
+        }
+    ],
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                    "code": "CARD",
+                    "display": "Cardiology"
+                }
+            ],
+            "text": "Cardiología"
+        }
+    ],
+    "healthcareService": [
+        {
+            "reference": "HealthcareService/1111CarSur",
+            "display": "Servicio de Cardiología - Sede Sur"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+123456784",
+            "use": "work"
+        },
+        {
+            "system": "email",
+            "value": "alonso.fonseca@acme-salud.com",
+            "use": "work"
+        }
+    ],
+    "active": true,
+    "availableTime": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "thu",
+                "fri"
+            ],
+            "availableStartTime": "08:00:00",
+            "availableEndTime": "12:00:00"
+        },
+        {
+            "daysOfWeek": [
+                "tue",
+                "wed"
+            ],
+            "availableStartTime": "13:00:00",
+            "availableEndTime": "17:00:00"
+        }
+    ]
+}
