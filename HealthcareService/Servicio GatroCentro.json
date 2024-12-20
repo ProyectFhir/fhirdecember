@@ -1,0 +1,52 @@
+{
+    "resourceType": "HealthcareService",
+    "id": "4444GasCen",
+    "providedBy": {
+        "reference": "Organization/830462510-9",
+        "display": "ACME Salud - Sede Centro"
+    },
+    "name": "Gastroenterología",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-category",
+                    "code": "23",
+                    "display": "Specialist Services"
+                }
+            ],
+            "text": "Consulta especializada"
+        }
+    ],
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-type",
+                    "code": "41",
+                    "display": "Gastroenterology"
+                }
+            ],
+            "text": "Gastroenterología"
+        }
+    ],
+    "availability": [
+        {
+            "daysOfWeek": [
+                "tue",
+                "thu",
+                "mon"
+            ],
+            "allDay": false,
+            "availableStartTime": "07:00:00",
+            "availableEndTime": "19:00:00"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+676475648",
+            "use": "work"
+        }
+    ]
+}

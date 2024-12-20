@@ -1,0 +1,52 @@
+{
+  "resourceType": "HealthcareService",
+  "id": "8888Ped",
+  "providedBy": {
+    "reference": "Organization/830462510-9",
+    "display": "ACME Salud - Sede Norte"
+  },
+  "name": "Pediatría",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-category",
+          "code": "23",
+          "display": "Specialist Services"
+        }
+      ],
+      "text": "Consulta especializada"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-type",
+          "code": "30",
+          "display": "Pediatrics"
+        }
+      ],
+      "text": "Pediatría"
+    }
+  ],
+  "availability": [
+    {
+      "daysOfWeek": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "allDay": false,
+      "availableStartTime": "07:00:00",
+      "availableEndTime": "19:00:00"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+123456799",
+      "use": "work"
+    }
+  ]
+}

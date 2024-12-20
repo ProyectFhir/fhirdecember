@@ -1,0 +1,54 @@
+{
+    "resourceType": "HealthcareService",
+    "id": "6666MedGenCen",
+    "providedBy": {
+        "reference": "Organization/830462510-9",
+        "display": "ACME Salud - Sede Centro"
+    },
+    "name": "Medicina General centro",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-category",
+                    "code": "17",
+                    "display": "General Practice"
+                }
+            ],
+            "text": "Consulta general centro"
+        }
+    ],
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-type",
+                    "code": "57",
+                    "display": "General Medical Practice"
+                }
+            ],
+            "text": "Medicina General centro"
+        }
+    ],
+    "availability": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri"
+            ],
+            "allDay": false,
+            "availableStartTime": "03:00:00",
+            "availableEndTime": "20:00:00"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+123456789",
+            "use": "work"
+        }
+    ]
+}

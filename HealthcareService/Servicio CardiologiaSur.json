@@ -1,0 +1,52 @@
+{
+    "resourceType": "HealthcareService",
+    "id": "1111CarSur",
+    "providedBy": {
+        "reference": "Organization/830462510-9",
+        "display": "ACME Salud - Sede Sur"
+    },
+    "name": "Cardiología",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-category",
+                    "code": "23",
+                    "display": "Specialist Services"
+                }
+            ],
+            "text": "Consulta especializada"
+        }
+    ],
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-type",
+                    "code": "51",
+                    "display": "Cardiology"
+                }
+            ],
+            "text": "Cardiología"
+        }
+    ],
+    "availability": [
+        {
+            "daysOfWeek": [
+                "mon",
+                "tue",
+                "thu"
+            ],
+            "allDay": false,
+            "availableStartTime": "09:00:00",
+            "availableEndTime": "15:00:00"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+987654321",
+            "use": "work"
+        }
+    ]
+}
