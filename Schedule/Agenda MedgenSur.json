@@ -1,0 +1,37 @@
+{
+    "resourceType": "Schedule",
+    "id": "Ang3333MedGenSur",
+    "serviceCategory": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-category",
+                    "code": "17",
+                    "display": "General Practice"
+                }
+            ]
+        }
+    ],
+    "serviceType": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/service-type",
+                    "code": "57",
+                    "display": "General Medical Practice"
+                }
+            ]
+        }
+    ],
+    "actor": [
+        {
+            "reference": "HealthcareService/3333MedGenSur",
+            "display": "Medicina General - Sede Sur"
+        }
+    ],
+    "planningHorizon": {
+        "start": "2024-11-20T08:00:00Z",
+        "end": "2024-12-20T16:00:00Z"
+    },
+    "comment": "Horario regular de lunes a viernes de 8:00 AM a 4:00 PM"
+}
