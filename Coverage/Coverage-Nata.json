@@ -1,0 +1,44 @@
+{
+    "resourceType": "Coverage",
+    "id": "COVCC20241210",
+    "status": "active",
+    "beneficiary": {
+        "reference": "Patient/CC1014287295",
+        "display": "TORRES BEJARANO ANGIE NATALIA"
+    },
+    "payor": {
+        "reference": "Organization/EPS-951311",
+        "display": "Salud Cooperativa"
+    },
+    "subscriberId": "SPCCPACIENTE",
+    "type": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/coverage-type",
+                "code": "ins",
+                "display": "Insurance"
+            }
+        ],
+        "text": "Cobertura de Salud"
+    },
+    "period": {
+        "start": "2024-01-01",
+        "end": "2024-12-31"
+    },
+    "network": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/network",
+                "code": "public",
+                "display": "Red pública"
+            }
+        ]
+    },
+    "class": [
+        {
+            "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+            "code": "A",
+            "display": "Clase A"
+        }
+    ]
+}
