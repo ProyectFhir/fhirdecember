@@ -1,0 +1,13 @@
+{
+  "resourceType": "Slot",
+  "id": "SLOTGIN9999",
+  "schedule": {
+    "reference": "Schedule/AG-GCPID20241212", //AgendaGinecoElmerLuna 
+    "display": "Horario de Elmer Luna"
+  },
+  "status": "free",
+  "start": "2025-01-18T10:00:00Z",
+  "end": "2024-01-18T10:30:00Z",
+  "overbooked": false,
+  "comment": "Consulta Ginecologia disponible"
+}

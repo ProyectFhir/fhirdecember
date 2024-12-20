@@ -1,0 +1,13 @@
+{
+  "resourceType": "Slot",
+  "id": "SLT87716772",
+  "schedule": {
+    "reference": "Schedule/AG-GCPID87716772",
+    "display": "Horario de Gregorio Casas"
+  },
+  "status": "free",
+  "start": "2024-12-20T10:00:00Z",
+  "end": "2024-12-20T10:30:00Z",
+  "overbooked": false,
+  "comment": "Consulta Pediatria disponible"
+}
