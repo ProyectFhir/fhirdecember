@@ -1,0 +1,68 @@
+  {
+    "resourceType": "Appointment",
+    "id": "APPGIN9999",
+    "status": "booked",
+    "serviceCategory": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/service-category",
+            "code": "23",
+            "display": "Specialist Services"
+          }
+        ]
+      }
+    ],
+    "serviceType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/service-type",
+            "code": "33",
+            "display": "Obstetrics and Gynecology"
+          }
+        ]
+      }
+    ],
+    "appointmentType": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0276",
+          "code": "ROUTINE",
+          "display": "Routine appointment"
+        }
+      ]
+    },
+    "reasonCode": [
+      {
+        "text": "Consulta médica ginecobstetricia"
+      }
+    ],
+    "priority": 1,
+    "description": "Cita médica general con la Dr. Elmer Luna",
+    "start": "2025-01-18T10:00:00Z",
+    "end": "2025-01-18T10:30:00Z",
+    "slot": [
+      {
+        "reference": "Slot/SLOTGIN9999"
+      }
+    ],
+    "participant": [
+      {
+        "actor": {
+          "reference": "Patient/CC60360334",
+          "display": "Liliana Albarracin"
+        },
+        "required": "required",
+        "status": "accepted"
+      },
+      {
+        "actor": {
+          "reference": "Practitioner/ID20241212",
+          "display": "Dra. Elmer Luna"
+        },
+        "required": "required",
+        "status": "accepted"
+      }
+    ]
+  }
