@@ -1,0 +1,38 @@
+{
+    "resourceType": "Patient",
+    "id": "CC80019670",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-11-25T17:53:52.340-06:00",
+        "source": "#UhdTmTa8SEboFDE7"
+    },
+    "name": [
+        {
+            "use": "official",
+            "family": "LOPEZ PICO",
+            "given": [
+                "LUIS DANIEL"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "3108851922",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "muiscas4@correo.com"
+        }
+    ],
+    "address": [
+        {
+            "use": "home",
+            "line": [
+                "BARRIO LAS MERCEDES"
+            ]
+        }
+    ]
+}
+ 
